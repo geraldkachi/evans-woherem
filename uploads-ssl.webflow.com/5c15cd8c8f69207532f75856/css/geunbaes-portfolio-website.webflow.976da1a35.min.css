@@ -2769,6 +2769,18 @@ figcaption {
     /* background- */
     background-repeat: no-repeat
 }
+/* @media (max-width : 768px) {
+    .hero-split {
+
+    }
+} */
+
+@media (max-width : 990px) {
+    .split-image.hero-2n {
+        /* background-position: 50% 50%; */
+        width: 100%;
+    }
+}
 .meet-me {
     padding: 16px;
     background: #faaf52;
