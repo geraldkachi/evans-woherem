@@ -2775,6 +2775,16 @@ figcaption {
     }
 } */
 
+.u-vee {
+    width: 567px;
+}
+
+@media (max-width : 500px) {
+.u-vee {
+    width: unset;
+}
+
+}
 @media (max-width : 990px) {
     .split-image.hero-2n {
         /* background-position: 50% 50%; */
