@@ -2191,13 +2191,16 @@ figcaption {
 }
 
 .susuus {
-    position: absolute !important;
+    position: relative !important;
     bottom: unset !important;
     z-index: 10000;
+    padding-right: 30px !important;
+    gap: 0 !important;
+    white-space: nowrap !important;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: block !important;
     width: 100% !important;
     height: 88px;
     padding: 20px;
